@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "id": "jeconomy",
+  "version": "${version}",
+
+  "name": "JEconomy",
+  "description": "Adds Economy Feature",
+  "authors": [
+    "Sreeraj S"
+  ],
+  "contact": {
+    "sources": "https://github.com/Sreeraj-S/JEconomy",
+    "issues": "https://github.com/Sreeraj-S/JEconomy/issues"
+  },
+
+  "license": "MIT",
+
+
+  "environment": "*",
+  "entrypoints": {"main": [
+    "me.sreeraj.jeconomy.fabric.JEconomyFabric"
+  ],
+    "client": []
+  },
+  "mixins": [
+  ],
+  "depends": {
+    "fabricloader": ">=0.14.21",
+    "minecraft": ">=1.20.1",
+    "java": ">=17"
+  }
+}
